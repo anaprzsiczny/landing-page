@@ -1,0 +1,29 @@
+.card-info {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 50px;
+  background: rgba(240, 99, 184, 0.15);
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.card-text {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #212353;
+  margin-left: 5%;
+}
+
+.card-text .paragraph{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #4b5d68;
+  width: 80%;
+}
