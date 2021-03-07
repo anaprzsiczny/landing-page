@@ -1,0 +1,29 @@
+.upfooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #4b5d68;
+  }
+
+  h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #212353;
+    margin-bottom: 20px;
+  }
+}
+
+.footer-buttons {
+  width: 38%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}

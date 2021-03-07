@@ -4,3 +4,17 @@
   padding: 0;
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+hr {
+  width: 100%;
+  color: #9c69e2;
+  opacity: 0.2;
+  height: 2px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}

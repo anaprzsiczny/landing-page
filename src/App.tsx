@@ -9,11 +9,14 @@ import Testimonials from './components/Testimonials/testimonials';
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Info />
-      <Features />
-      <Testimonials />
-      <Footer />
+      <div className="container">
+        <Home />
+        <Info />
+        <Features />
+        <Testimonials />
+        <hr />
+        <Footer />
+      </div>
     </div>
   );
 }

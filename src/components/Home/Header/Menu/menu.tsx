@@ -4,10 +4,10 @@ import './menu.scss'
 const Menu = () => {
   return (
     <div className="menu">
-      <p>About</p>
-      <p>Help</p>
-      <p>Features</p>
-      <p>Signup</p>
+      <p data-testid="about">About</p>
+      <p data-testid="help">Help</p>
+      <p data-testid="features">Features</p>
+      <p data-testid="signup">Signup</p>
     </div>
   )
 }

@@ -1,11 +1,17 @@
 import React from 'react';
+import './cardTitle.scss'
 
-const CardTitle = () => {
+const CardTitle = (props: any) => {
+
+  const title = props.title
+
   return (
     <div>
-      <h6>Card Title</h6>
+      <p data-testid="card-title" className="cardTitle">
+        {title}
+      </p>
     </div>
-  )
+  );
 }
 
 export default CardTitle

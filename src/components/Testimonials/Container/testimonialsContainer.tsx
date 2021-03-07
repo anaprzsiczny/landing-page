@@ -1,13 +1,17 @@
 import React from 'react';
 import TestimonialsCard from './Card/testimonialsCard';
+import './testimonialsContainer.scss'
 
 const TestimonialsContainer = () => {
+
   return (
-    <div>
-      <h4>Page Title</h4>
+    <div className="container-testimonials">
+      <p data-testid="testimonials-title" className="title">
+        Testimonials
+      </p>
       <TestimonialsCard />
     </div>
-  )
+  );
 }
 
 export default TestimonialsContainer

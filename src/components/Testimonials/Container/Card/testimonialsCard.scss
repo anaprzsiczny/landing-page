@@ -1,0 +1,44 @@
+.testimonials-card {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 65%;
+  height: 320px;
+  margin-top: 100px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Nunito', sans-serif;
+}
+
+.avatar {
+  width: 45%;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: 0.5%;
+  max-width: 65%;
+  margin-bottom: 5px;
+  padding-top: 50px;
+}
+
+.company {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
+  letter-spacing: 1%;
+  color: #9c69e2;
+  max-width: 65%;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: #4b5d68;
+  max-width: 83%;
+}
